@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Configs
 {
+    [CreateAssetMenu(menuName = "Configs/Objects/ObjectConfig")]
     public class ObjectConfig : ScriptableObjectIdentity
     {
         [SerializeField] private string _name;
